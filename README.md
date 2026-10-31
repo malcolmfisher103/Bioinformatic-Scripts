@@ -123,6 +123,7 @@ A plain-Python script version of `Isoform_expression_chart.ipynb`. Running it wr
 | Gene model → symbol | `https://tools.xenbase.org/cgi-bin/reports/models_gene_info.cgi` |
 | GSM ↔ SRR metadata | `https://download.xenbase.org/xenbase/GenePageReports/geo_srr_metadata_chd.txt` |
 | *X. tropicalis* v10 GFF3 | `https://download.xenbase.org/xenbase/Genomics/JGI/Xentr10.0/XENTR_10.0_Xenbase.gff3.gz` |
+| *X. laevis* v10.1 GFF3 | `https://download.xenbase.org/xenbase/Genomics/JGI/Xenla10.1/latest/XENLA_10.1_Xenbase.gff3.gz` |
 | Xenbase GO annotations | `https://download.xenbase.org/xenbase/GenePageReports/xenbase.gaf.gz` |
 | GO ontology | `http://purl.obolibrary.org/obo/go/go-basic.obo` |
 
