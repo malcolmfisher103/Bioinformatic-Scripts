@@ -9,9 +9,9 @@ A collection of bioinformatics scripts, mostly Google Colab notebooks, for worki
 | [`Parsing_RNA_SEQ_data.ipynb`](#parsing_rna_seq_dataipynb) | Converts any Xenbase-processed GEO RNA-Seq TPM matrix into a readable table | Any GSE, *X. laevis* or *X. tropicalis* |
 | [`Heatmap_RNA_SEQ_data.ipynb`](#heatmap_rna_seq_dataipynb) | Builds that table for any GSE and draws heatmaps of selected genes | Any GSE, *X. laevis* or *X. tropicalis* |
 | [`Tissue_heatmaps.ipynb`](#tissue_heatmapsipynb) | Heatmaps of selected genes across adult tissues | GSE73419 (*X. laevis*), GSE43520 (*X. tropicalis*) |
-| [`Owens_Expression_data_graph.ipynb`](#owens_expression_data_graphipynb) | Plots a high-resolution developmental timecourse for selected genes | GSE65785 (*X. tropicalis*) |
 | [`Session_Expression_data_graph.ipynb`](#session_expression_data_graphipynb) | Plots an oocyte-to-tadpole timecourse for selected genes | GSE73430 (*X. laevis*) |
-| [`Isoform_expression_chart.ipynb`](#isoform_expression_chartipynb) | Plots the same timecourse per transcript isoform, labelled with RefSeq accessions | GSE65785 (*X. tropicalis*) |
+| [`Owens_Expression_data_graph.ipynb`](#owens_expression_data_graphipynb) | Plots a high-resolution developmental timecourse for selected genes | GSE65785 (*X. tropicalis*) |
+| [`Isoform_expression_chart.ipynb`](#isoform_expression_chartipynb) | Plots the Owens timecourse per transcript isoform, labelled with RefSeq accessions | GSE65785 (*X. tropicalis*) |
 | [`Xenopus_GO_enrichment.ipynb`](#xenopus_go_enrichmentipynb) | GO enrichment of a gene list against Xenbase GO annotations | *X. tropicalis* (default) or *X. laevis* |
 | [`streamlit_app.py`](#streamlit_apppy) | Plain-Python version of the isoform timecourse notebook | GSE65785 (*X. tropicalis*) |
 | `requirements.txt` | Pinned Python dependencies for running locally | — |
