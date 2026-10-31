@@ -22,7 +22,7 @@ def load_tpm_matrix():
     )
 
 def load_gene_info():
-    return pd.read_csv('https://xenbase-bio1.ucalgary.ca/cgi-bin/reports/models_gene_info.cgi', sep='\t', index_col=None)
+    return pd.read_csv('https://tools.xenbase.org/cgi-bin/reports/models_gene_info.cgi', sep='\t', index_col=None)
 
 def load_gsm_sample_mapping():
     return pd.read_csv(
